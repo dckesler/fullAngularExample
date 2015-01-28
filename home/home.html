@@ -2,4 +2,9 @@
 <input ng-model="lat">
 <input ng-model="long">
 
-<button ng-click="changeRoute()">BUTTon</button>
+<button ng-click="changeRoute()">button</button>
+
+<a-directive something="hi" message="A String" variable="name" funk="logger()">
+    <p>This stuff is transcluded</p>
+    <p>This transcluded stuff belongs to the parent controller {{thingie}}</p>
+</a-directive>
